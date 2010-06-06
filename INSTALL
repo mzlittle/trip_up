@@ -1,0 +1,18 @@
+
+Building from source
+====================
+
+   ./configure --prefix=/path/to/install
+   make
+   
+If you want statically linked binaries, throw the --enable-static for
+configure. Note that statically linked binaries are not possible on all
+platforms.
+
+Once the compile is finished, you'll find binaries in the bin/ directory.
+
+
+Installation
+============
+
+Edit the settings in install/install.cfg and run "make install".
